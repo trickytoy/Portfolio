@@ -1,0 +1,299 @@
+html, body {
+    padding: 0%;
+    border: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+    
+    
+    
+}
+
+body {
+    background-color: #F3F2EF;
+}
+
+input{    
+    height:30px;
+    padding-left:25px;
+    background-color: white;   
+}
+
+button {
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    border-width: 20px;
+    border-color: black;
+    background: white;
+    color: black;
+    font-size: 20px;
+    width: auto;
+    height: auto;
+
+}
+
+
+/* CSS */
+.hb {
+  background-color: rgba(45, 45, 45, 0.05);
+  border-radius: 8px;
+  border-width: 0;
+  color: #333333;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 10px 12px;
+  text-align: center;
+  transition: all 200ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.hb:hover {
+  background-color: rgba(45, 45, 45, 0.205);
+  color: #333333;
+  text-decoration: none;
+}
+
+.hc {
+    display: flex;
+    align-items: center;
+    padding-right: 3%;
+    padding-left: 3%;
+    width: auto;
+    height: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 0.4fr 1.4fr;
+}
+
+
+.hl {
+    height: auto;
+    width: fit-content;
+}
+
+.hr {
+    right: 0;
+    text-align: right;
+
+}
+
+.searchbox {
+    border: 2px solid red;
+    width: 80%;
+    height: 3vh;
+    border-radius: 4px;
+}
+
+.logo {
+    float: left;
+    width: 5%;
+}
+
+/* BODY */
+
+.container { 
+    position: relative;
+    z-index: 1;
+    display: grid;
+
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "Main Sidebar";
+
+    margin: auto;
+    padding-left: 3%;
+    padding-right: 3%;
+    /* border: 3px solid blue; */
+    width: 1150px;
+    margin-bottom: 1%;
+  }
+ 
+@media (max-width: 1100px) {
+    .container {
+        width: 900px;
+    }
+
+    .hc {
+        width: 900px;
+    }
+}
+
+@media (max-width: 900px) {
+    .container {
+        grid-template-columns: 1.4fr;
+    }
+
+    .sidebar {
+        display: none;
+    }
+}
+  
+.main {
+    margin-top: 0;
+    padding-top: 0;
+    /* border: 3px solid red; */
+}
+
+
+
+section {
+    margin-top: 0;
+    padding-top: 0;
+    /* border: 3px solid green; */
+    padding: 10px;
+    max-width: 100%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    background-color: #F3F2EF;
+    /* background-color: white; */
+    border-radius: 8px;
+    /* border: 0.3px solid grey; */
+    
+
+}
+
+.intro {
+    padding-left: 0;
+    padding-right: 0;
+    margin: auto;
+}
+
+.ip {
+
+    margin: auto;
+    text-align: center;
+}
+
+.msg {
+    background-color: #0A66C2;
+    color: white;
+    height: 35px;
+    width: 90px;
+    border-radius: 20px;
+    border: 0;
+}
+
+.msg:hover {
+    background-color: #004182;
+    cursor: pointer;
+}
+
+.mi {
+    border-color: black;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    height: 35px;
+    width: 90px;
+    border: 10px;
+    
+    
+    margin-left: 10px;
+}
+
+.mi:hover {
+    cursor: pointer;
+}
+
+.im {
+    position: relative;
+    z-index: -1;
+    
+}
+
+.bg {
+    position: relative;
+    z-index: -1;
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+
+    
+}
+
+.profile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    left: 50%;
+    top: 60%;
+    z-index: 1;
+    border-radius: 50%;
+    height: 200px;
+    border: 8px solid white;
+
+}
+
+
+.sidebar {
+    margin-top: 0;
+    border: 1px solid grey;
+    background-color: white;
+    border-radius: 8px;
+}
+
+
+.scontent {
+    padding: 20px;
+}
+
+h3 {
+    margin-bottom: 0px;
+    padding-left: 50px;
+
+}
+.Activity h3 {
+    padding-left: 0;
+}
+
+p3 {
+    font-size: small;
+    padding-left: 10px;
+}
+
+.sprofile {
+    float: left;
+    height: 40px;
+    border-radius: 50%;
+}
+
+  
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+  
+/* Set a specific color for each brand */
+
+hr.new1 {
+    border-top: 1px solid grey;
+    opacity: 0.3;
+  }
+
+
+.gallery {
+    margin: auto;
+    width: 620px;
+}
+
+.gimg {
+    opacity: 0.7;
+    border: 2px solid black;
+}
+
+.gimg:hover {
+    opacity: 1;
+}
