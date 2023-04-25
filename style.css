@@ -13,6 +13,7 @@ body {
     background-color: #F3F2EF;
 }
 
+
 input{    
     height:30px;
     padding-left:25px;
@@ -116,7 +117,8 @@ header {
     margin: auto;
     padding-left: 3%;
     padding-right: 3%;
-    /* border: 3px solid blue; */
+    border: 3px solid black;
+    background-color: #F3F2EF;
     width: 1150px;
     margin-bottom: 1%;
   }
@@ -157,7 +159,7 @@ section {
     max-width: 100%;
     margin-bottom: 1%;
     margin-top: 1%;
-    background-color: #F3F2EF;
+    /* background-color: #F3F2EF; */
     /* background-color: white; */
     border-radius: 8px;
     /* border: 0.3px solid grey; */
@@ -297,3 +299,12 @@ hr.new1 {
 .gimg:hover {
     opacity: 1;
 }
+
+#particles-js {
+    position: fixed;
+    z-index: 50;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
