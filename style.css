@@ -307,4 +307,8 @@ hr.new1 {
     height: 100%;
     top: 0;
     left: 0;
-  }
+}
+
+#eyes, #eyes img {
+    position: absolute;
+}
